@@ -1,0 +1,19 @@
+function checkPassword() {
+
+    const password = document.getElementById("passwordInput").value;
+    const errorMessage = document.getElementById("errorMessage");
+
+    // Nümunə parol
+    const correctPassword = "30102025";
+
+    if (password === correctPassword) {
+
+        document.getElementById("passwordScreen").style.display = "none";
+        document.getElementById("mainPage").style.display = "block";
+
+    } else {
+
+        errorMessage.textContent = "Hmm... deyəsən parol düzgün deyil ❤️";
+
+    }
+}

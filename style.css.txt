@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    min-height: 100vh;
+    color: white;
+}
+
+/* Parol ekranı */
+
+.screen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.password-box {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px 30px;
+    border-radius: 25px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.heart {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.password-box h1 {
+    margin-bottom: 15px;
+}
+
+.password-box p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    color: #ff4f75;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+#errorMessage {
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* Əsas səhifə */
+
+.main-page {
+    display: none;
+    min-height: 100vh;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.main-page h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.card {
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    color: #444;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    color: #ff4f75;
+    margin-bottom: 20px;
+}
+
+.card p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.signature {
+    font-weight: bold;
+    color: #ff4f75;
+}
+
+.hearts {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+/* Telefon üçün */
+
+@media (max-width: 600px) {
+
+    .main-page h1 {
+        font-size: 30px;
+    }
+
+    .password-box {
+        padding: 30px 20px;
+    }
+
+    .card {
+        padding: 25px 20px;
+    }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sənin üçün ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Parol ekranı -->
+    <div id="passwordScreen" class="screen">
+        <div class="password-box">
+            <div class="heart">❤️</div>
+            <h1>Bu səhifə sənə özəldir</h1>
+            <p>Daxil olmaq üçün bizim xüsusi tariximizi yaz 💌</p>
+
+            <input 
+                type="password" 
+                id="passwordInput" 
+                placeholder="Parolu yaz..."
+            >
+
+            <button onclick="checkPassword()">Daxil ol</button>
+
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+
+
+    <!-- Əsas səhifə -->
+    <div id="mainPage" class="main-page">
+
+        <div class="hearts">❤️ 💕 ❤️ 💕 ❤️</div>
+
+        <h1>Sənin üçün hazırladım ❤️</h1>
+
+        <p class="subtitle">
+            Bu kiçik səhifə sənə olan hisslərimi ifadə etmək üçündür.
+        </p>
+
+        <div class="card">
+            <h2>Bir məktub 💌</h2>
+
+            <p>
+                Bəzən hiss etdiklərimizi sözlərlə ifadə etmək çətin olur.
+                Ona görə də bu dəfə sənə kiçik bir səhifə hazırlamaq istədim.
+            </p>
+
+            <p>
+                Ümid edirəm ki, bu balaca hədiyyə üzündə təbəssüm yaradar. ❤️
+            </p>
+
+            <p class="signature">
+                — Səni düşünən biri ❤️
+            </p>
+        </div>
+
+        <div class="footer">
+            Sənin üçün, xüsusi olaraq. ❤️
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+<script src=" script.js"></script></body>
+</html>
